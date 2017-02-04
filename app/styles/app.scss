@@ -1,0 +1,14 @@
+@import "base/variables";
+
+// foundation
+@import "base/foundation-settings";
+@import "foundation";
+@include foundation-flex-classes;
+@include foundation-flex-grid;
+@include foundation-everything(true);
+
+// font awesome
+@import "font-awesome/font-awesome";
+
+// Components
+@import "components/main";
